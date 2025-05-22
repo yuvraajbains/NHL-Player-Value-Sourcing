@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Exports
+outputs/summaries/
+outputs/graphs/
+data/export_nhl_players.csv
+
+# Power BI
+*.pbix
+*.pbix~
+
+# Jupyter runtime
+*.nbconvert.ipynb
