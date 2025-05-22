@@ -48,6 +48,19 @@ nhl_value_analysis/
 
 ## 📈 Visual Examples
 
+### 📊 Power BI Dashboard Overview
+![Power BI Dashboard](docs/dashboard_preview.png)
+
+### 📈 Value Score Distribution
+![ValueScore Histogram](docs/value_score_distribution.png)
+
+### 💰 Cap Hit vs Value Score
+![CapHit vs Value](docs/caphit_vs_value.png)
+
+### 🔥 Player Stat Correlations
+![Heatmap](docs/player_feature_correlation_heatmap.png)
+
+
 ### 🔹 Power BI Dashboard
 - Filter by Team, Position, Goals, CapHit  
 - View ranked `ValueScore` bar charts  
