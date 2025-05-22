@@ -1,17 +1,13 @@
-# src/genai_summarizer.py
 
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
 
-# Load .env file to get the API key
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 
-# Configure Gemini with your API key
 genai.configure(api_key=api_key)
 
-# Load the Gemini 1.5 Flash model
 model = genai.GenerativeModel("models/gemini-1.5-flash")
 
 def summarize_player_data(player_summary: str) -> str:
